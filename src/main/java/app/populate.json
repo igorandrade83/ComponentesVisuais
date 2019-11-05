@@ -11,5 +11,30 @@
     "_class": "app.entity.Role",
     "id": "Administrators",
     "user": { "id" : "304BF43E-0E62-4F4A-8A63-3F22D7AD4611" }
+  },
+  {
+    "_class": "app.entity.UserIcone",
+    "id": "30D68C98-83FF-4B80-AB00-E2BFFDB9BC9B",
+    "email": "js@email.com",
+    "icon": "icon dark ion ion-android-add-circle",
+    "login": "js",
+    "Nome": "João Souza"
+  },
+  {
+    "_class": "app.entity.UserIcone",
+    "id": "A22F4E23-DA65-4A0C-AF98-B4EA4814B651",
+    "email": "ms@email.com",
+    "icon": "icon dark ion ion-android-attach",
+    "login": "ms",
+    "Nome": "Marisa Seixas"
+  },
+  {
+    "_class": "app.entity.UserIcone",
+    "id": "0626AC6F-503B-44AE-A202-77D166735BD0",
+    "email": "mm@cronapp.io",
+    "icon": "icon dark ion ion-alert",
+    "login": "mm",
+    "Nome": "Matheus Mattos"
   }
+
 ]
