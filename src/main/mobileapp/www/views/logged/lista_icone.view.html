@@ -1,0 +1,13 @@
+<ion-view class="pane">
+  <ion-header-bar align-title="center" class="bar bar-positive" xattr-theme="bar-positive" data-component="crn-ion-header-bar">
+    <div class="buttons buttons-left header-item">
+      <button class="button button-clear" menu-toggle="left" data-component="crn-button" xattr-type="button-clear"> <i class="icon ion-navicon"></i> </button>
+    </div>
+    <h1 class="title">Lista com Ícone</h1>
+    <div class="buttons buttons-right header-item">
+      <button class="button button-clear" menu-toggle="right" data-component="crn-button" xattr-type="button-clear"> <i class="icon ion-navicon"></i> </button>
+    </div>
+  </ion-header-bar>
+  <ion-content data-component="crn-ion-content" class="scroll-content has-header">
+  <datasource name="User" entity="app.UserIcone" keys="id" rows-per-page="100" on-before-create="" on-after-create="" on-before-update="" on-after-update="" on-before-delete="" on-after-delete="" on-after-fill="" data-component="crn-datasource" class="component-holder" schema="[{&quot;name&quot;:&quot;id&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:false,&quot;key&quot;:true},{&quot;name&quot;:&quot;nome&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;login&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;email&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false},{&quot;name&quot;:&quot;icon&quot;,&quot;type&quot;:&quot;String&quot;,&quot;nullable&quot;:true,&quot;key&quot;:false}]" condition=""></datasource><div class="component-holder ng-binding ng-scope" data-component="crn-list-icon" id="crn-list-icon-970829"><div crn-datasource="User" ng-repeat="rowData in datasource.data" id="crn-list-icon4654" xattr-text-position="text-left"><a class="item item-icon-left text-left" xattr-position="item-icon-left" data-component="crn-list-item-icon" id="crn-list-item-icon4654" href="" xattr-text-position="text-left"><i class="{{User.active.icon}}" xattr-theme="dark"></i><h2 class="dark" xattr-theme="dark">{{rowData.email}}</h2></a></div></div></ion-content>
+</ion-view>

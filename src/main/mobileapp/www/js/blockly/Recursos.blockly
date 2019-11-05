@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly bpmnAble="false" formTarget="" resourceType="JS" ruleDescription="Recursos" ruleName="Recursos" ruleSynchronous="false" ruleTimeout="" ruleType="I">
+  <metadata scale="1" scrollx="491.4000000000001" scrolly="-45.90000000000043" target="Anb:u5+^,0vLkL9QIqn5"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <mutation>
+      <arg name="pedido"/>
+    </mutation>
+    <field name="NAME">ObterValorTotal</field>
+    <comment h="80" pinned="false" w="160">Recursos</comment>
+    <value name="RETURN">
+      <block colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="gp$4[u~p|5ey!#mN73_}" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+        <field name="TEXT">543254</field>
+      </block>
+    </value>
+  </block>
+</blockly>

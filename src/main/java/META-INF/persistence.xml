@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="app" transaction-type="RESOURCE_LOCAL">
+        <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+        <non-jta-data-source>java:comp/env/jdbc/main</non-jta-data-source>
+        <class>app.entity.UserIcone</class>
+        <class>app.entity.pedido_cliente</class>
+        <class>app.entity.estado</class>
+        <class>app.entity.User</class>
+        <class>app.entity.Estados_do_pais</class>
+        <class>app.entity.produto</class>
+        <class>app.entity.Cidade</class>
+        <class>app.entity.cliente</class>
+        <class>app.entity.Ator</class>
+        <class>app.entity.Continente_do_planeta</class>
+        <class>app.entity.filme</class>
+        <class>app.entity.cincok</class>
+        <class>app.entity.dobre</class>
+        <class>app.entity.Planeta_viaLactea</class>
+        <class>app.entity.Device</class>
+        <class>app.entity.Role</class>
+        <class>app.entity.Anime</class>
+        <class>app.entity.Atuacao</class>
+        <class>app.entity.Pais_do_continente</class>
+        <properties>
+            <property name="eclipselink.ddl-generation" value="create-or-extend-tables"/>
+            <property name="eclipselink.query-results-cache" value="false"/>
+        </properties>
+    </persistence-unit>
+</persistence>

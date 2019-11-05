@@ -1,0 +1,16 @@
+window.fixedTimeZone = true;
+window.timeZone = 'HST';
+window.timeZoneOffset = -600;
+window.blockly = window.blockly || {};
+window.blockly.js = window.blockly.js || {};
+window.blockly.js.blockly = window.blockly.js.blockly || {};
+window.translations = window.translations || {};
+window.translations.localesKeys = ['en_us','pt_br'];
+window.translations.localesRef =  {"en*":"en_us","*":"pt_br","pt*":"pt_br"};
+document.write("<script src='js/blockly/Blocos.blockly.js?1572618409788'></script>");
+document.write("<script src='js/blockly/auth/ChangePassword.blockly.js?1569334267435'></script>");
+document.write("<script src='js/blockly/auth/Home.blockly.js?1569334267437'></script>");
+document.write("<script src='js/blockly/auth/Login.blockly.js?1569334267431'></script>");
+document.write("<script src='js/blockly/ComponenteVisual.blockly.js?1572649824213'></script>");
+document.write("<script src='js/blockly/Recursos.blockly.js?1570716728841'></script>");
+document.write("<script src='js/blockly/Bloco.blockly.js?1572646544061'></script>");

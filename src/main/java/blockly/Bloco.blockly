@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly bpmnAble="false" formTarget="src/main/webapp/views/logged/grafico.view.html" resourceType="JAVA" ruleDescription="Bloco" ruleName="Bloco" ruleSynchronous="false" ruleTimeout="300" ruleType="I">
+  <metadata scale="1" scrollx="507.9999999999998" scrolly="-96.00000000000063" target="@,7#j.7+73_}aoAqty.["/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-472" y="23">
+    <field name="NAME">Data com fuso</field>
+    <comment h="80" pinned="false" w="160">Bloco</comment>
+    <statement name="STACK">
+      <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="-MM`3cV6587bO=iY:FpK" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set">
+        <field name="VAR">data</field>
+        <value name="VALUE">
+          <block colour="#0e9a6c" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="BSMR,T^8wEH1V=4*1I-f" multilayer="false" namespace="cronapi.conversion.Operations.stringToDate" origintype="procedures_callreturn" output="true" returntype="ObjectType.DATETIME" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EConverter%20texto%20para%20data%20com%20Fuso%20Hor%C3%A1rio%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20converter%20texto%20para%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Conte%C3%BAdo%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20M%C3%A1scara%20:%20Texto%3C/span%3E%3Cdiv%3E%20M%C3%A1scara.%20Ex:%20dd/MM/yyyy%20HH:mm:ss,%20DateTimeFormat,%20DateFormat%3C/div%3E%3Cspan%3E%20-%20Fuso%20Hor%C3%A1rio%20:%20Inteiro%3C/span%3E%3Cdiv%3E%20Fuso%20Hor%C3%A1rio.%20Ex:%20-3,%20GMT-03:00%20ou%20America/Sao_Paulo%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.conversion.Operations.stringToDate%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.conversion.Operations.stringToDate%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.conversion.Operations.stringToDate}}" return-raw-type="cronapi.Var">
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="Conteúdo"/>
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="Máscara"/>
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Fuso Horário"/>
+            </mutation>
+            <value name="ARG0">
+              <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="xn/x}}u}]6!Y|V$YA{m." origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">12/11/2000</field>
+              </shadow>
+            </value>
+            <value name="ARG1">
+              <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="=]Jt,|PATx`q(GZrYvMT" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">dd/MM/yyyy</field>
+              </shadow>
+            </value>
+            <value name="ARG2">
+              <shadow colour="#5b67a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="?rGDmUTLuo$Su;ZTNvKE" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field name="NUM">-3</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+    <value name="RETURN">
+      <block colour="#7d9137" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="SHR=7hVw@u`L4=xVOYuq" multilayer="false" namespace="cronapi.dateTime.Operations.formatDateTime" origintype="procedures_callreturn" output="true" returntype="ObjectType.STRING" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EFormatar%20data%20com%20Fuso%20Hor%C3%A1rio%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20formatar%20data%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Data%20:%20Data%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20M%C3%A1scara%20:%20Texto%3C/span%3E%3Cdiv%3E%20M%C3%A1scara.%20Ex:%20dd/MM/yyyy%20HH:mm:ss,%20DateTimeFormat,%20DateFormat%3C/div%3E%3Cspan%3E%20-%20Fuso%20Hor%C3%A1rio%20:%20Inteiro%3C/span%3E%3Cdiv%3E%20Fuso%20Hor%C3%A1rio.%20Ex:%20-3,%20GMT-03:00%20ou%20America/Sao_Paulo%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Texto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.dateTime.Operations.formatDateTime%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.dateTime.Operations.formatDateTime%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+        <mutation name="{{cronapi.dateTime.Operations.formatDateTime}}" return-raw-type="cronapi.Var">
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.DATETIME" name="Data"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="Máscara"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.LONG" name="Fuso Horário"/>
+        </mutation>
+        <value name="ARG0">
+          <block colour="#0088ee" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="-41Vo205)j;It(pA1@i6" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+            <field name="VAR">data</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="Uc=R:~U|ps?OMOi*v0(b" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">dd/MM/yyyy</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="?9YCgW)pb^I]zYu//P$^" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">-3</field>
+          </shadow>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block colour="#0088ee" dependencyby="@,7#j.7+73_}aoAqty.[" id="];{p13Bj;$v:3.by#XMl" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set" x="-7" y="53">
+    <field name="VAR">mapa</field>
+  </block>
+  <block colour="#fca03b" id="@,7#j.7+73_}aoAqty.[" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-412" y="83">
+    <field name="NAME">Executar</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#a26b21" dependencyby="@,7#j.7+73_}aoAqty.[" id="[T7X;IUIE^#/[TiQciw5" multilayer="false" namespace="cronapi.chart.Operations.createChart" origintype="procedures_arbitrary_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20gr%C3%A1fico%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20cria%20um%20gr%C3%A1fico%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Id%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Id%20do%20gr%C3%A1fico%20(canvas)%3C/div%3E%3Cspan%3E%20-%20Tipo%20de%20gr%C3%A1fico%20:%20Texto%3C/span%3E%3Cdiv%3E%20Tipo%20de%20gr%C3%A1fico%20a%20ser%20criado%3C/div%3E%3Cspan%3E%20-%20Legenda%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Legenda%20do%20gr%C3%A1fico%3C/div%3E%3Cspan%3E%20-%20Op%C3%A7%C3%B5es%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Op%C3%A7%C3%B5es%20do%20gr%C3%A1fico%3C/div%3E%3Cspan%3E%20-%20S%C3%A9rie(s)%20do%20gr%C3%A1fico%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Conjunto%20de%20s%C3%A9ries%20do%20gr%C3%A1fico%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.chart.Operations.createChart%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.chart.Operations.createChart%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_arbitrary_callnoreturn">
+        <mutation items="5" name="{{cronapi.chart.Operations.createChart}}">
+          <arg name="Id"/>
+          <arg name="Tipo de gráfico"/>
+          <arg name="Legenda"/>
+          <arg name="Opções"/>
+          <arg name="Série(s) do gráfico"/>
+        </mutation>
+        <value name="ARG0">
+          <block colour="#934848" dependencyby="@,7#j.7+73_}aoAqty.[" id="q;iNNW|sSLp/bN,Fu0~8" origintype="ids_from_screen" output="true" type="ids_from_screen">
+            <field name="SELECT">chart666</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block colour="#a26b21" dependencyby="@,7#j.7+73_}aoAqty.[" id="#^R$ph=TL0ZlKi4mV+vu" origintype="util_dropdown" output="true" type="util_dropdown">
+            <mutation>
+              <arg name="line" value="line"/>
+              <arg name="bar" value="bar"/>
+              <arg name="doughnut" value="doughnut"/>
+              <arg name="pie" value="pie"/>
+              <arg name="polarArea" value="Área polar"/>
+            </mutation>
+            <field name="SELECT">line</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <block colour="#745ba5" dependencyby="@,7#j.7+73_}aoAqty.[" id="Aj%u[ADgKBalBP.mVmW3" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+            <mutation items="3"/>
+            <value name="ADD0">
+              <block colour="#5ba593" dependencyby="@,7#j.7+73_}aoAqty.[" id="xg-{xJ{.=qk#n;@Y*6KM" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">er</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block colour="#5ba593" dependencyby="@,7#j.7+73_}aoAqty.[" id=";R.pT!|#c$dDlrXzgAew" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">rt</field>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block colour="#5ba593" dependencyby="@,7#j.7+73_}aoAqty.[" id="n!]?vx{FxtE{:%L^t_uL" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">yu</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <value name="ARG4">
+          <block colour="#a26b21" dependencyby="@,7#j.7+73_}aoAqty.[" id="sOi{B.X|*I|wPB7B]%H?" multilayer="false" namespace="cronapi.chart.Operations.createChartSerie" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20s%C3%A9rie%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20cria%20uma%20s%C3%A9rie%20de%20dados%20para%20gr%C3%A1fico%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Nome%20da%20s%C3%A9rie%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Dados%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Dados%20da%20s%C3%A9rie%3C/div%3E%3Cspan%3E%20-%20Op%C3%A7%C3%B5es%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Op%C3%A7%C3%B5es%20da%20s%C3%A9rie%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.chart.Operations.createChartSerie%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.chart.Operations.createChartSerie%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+            <mutation name="{{cronapi.chart.Operations.createChartSerie}}" return-raw-type="cronapi.Var">
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Nome da série"/>
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Dados"/>
+              <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Opções"/>
+            </mutation>
+            <value name="ARG0">
+              <block colour="#5ba593" dependencyby="@,7#j.7+73_}aoAqty.[" id="o]6d#KaO!l|$=D2;2m9z" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">fgh</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block colour="#745ba5" dependencyby="@,7#j.7+73_}aoAqty.[" id="wYMTb/V5-d$YY^)lstP(" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+                <mutation items="3"/>
+                <value name="ADD0">
+                  <block colour="#5b67a5" dependencyby="@,7#j.7+73_}aoAqty.[" id="epndE?GX`EF[GHFp8OY8" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field name="NUM">1</field>
+                  </block>
+                </value>
+                <value name="ADD1">
+                  <block colour="#5b67a5" dependencyby="@,7#j.7+73_}aoAqty.[" id="II%g7,XI%aeJmP11mN]z" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+                <value name="ADD2">
+                  <block colour="#5b67a5" dependencyby="@,7#j.7+73_}aoAqty.[" id="iRaMls%I(HOi/Hy=XGlt" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                    <field name="NUM">20</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#0088ee" dependencyby="@,7#j.7+73_}aoAqty.[" id="!@NUSk^t`a{ztO4vt9OY" origintype="variables_set" output="false" tooltip="Define esta variável para o valor da entrada." type="variables_set" x="263" y="173">
+    <field name="VAR">mapa</field>
+    <value name="VALUE">
+      <block colour="#917731" dependencyby="@,7#j.7+73_}aoAqty.[" id="+vM`Rq.;sDx9Za0$EmWd" multilayer="false" namespace="cronapi.map.Operations.createObjectMap" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20objeto%20mapa%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20criar%20objeto%20Mapa%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.map.Operations.createObjectMap%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.map.Operations.createObjectMap%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+        <mutation name="{{cronapi.map.Operations.createObjectMap}}" return-raw-type="cronapi.Var"/>
+      </block>
+    </value>
+    <next>
+      <block colour="#917731" dependencyby="@,7#j.7+73_}aoAqty.[" id="p+/2=onyZh3{uwD8~kIf" multilayer="false" namespace="cronapi.map.Operations.setMapFieldByKey" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EDefine%20valor%20no%20Mapa%20por%20chave%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20definir%20o%20valor%20do%20campo%20do%20mapa%20atrav%C3%A9s%20de%20uma%20determinada%20chave%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Mapa%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Chave%20:%20Texto%3C/span%3E%3Cdiv%3E%20Chave%20da%20busca%20no%20mapa.%20Exemplo:%20minhaChave%3C/div%3E%3Cspan%3E%20-%20Valor%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Valor%20a%20ser%20definido%20no%20mapa%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.map.Operations.setMapFieldByKey%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.map.Operations.setMapFieldByKey%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.map.Operations.setMapFieldByKey}}" return-raw-type="void">
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Mapa"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.STRING" name="Chave"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Valor"/>
+        </mutation>
+        <value name="ARG0">
+          <block colour="#0088ee" dependencyby="@,7#j.7+73_}aoAqty.[" id="Gqk~afI~Lw6zVo+,+m5Q" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+            <field name="VAR">mapa</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <shadow colour="#5ba593" dependencyby="@,7#j.7+73_}aoAqty.[" id="129-G/PrWRjaB)M4@aeo" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">legends</field>
+          </shadow>
+        </value>
+        <value name="ARG2">
+          <block colour="#5ba593" dependencyby="@,7#j.7+73_}aoAqty.[" id="i1!-3{.7XG3{1~)=NX_!" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">true</field>
+          </block>
+        </value>
+        <next>
+          <block colour="#5ba58c" dependencyby="@,7#j.7+73_}aoAqty.[" id="sOtxRGJoCtf81jL0K:Zo" origintype="text_print" output="false" tooltip="Imprime o texto, número ou valor especificado." type="text_print">
+            <value name="TEXT">
+              <shadow colour="#5ba593" dependencyby="@,7#j.7+73_}aoAqty.[" id="MKd3CZb(+OtH]@Z|wb;A" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+                <field name="TEXT">abc</field>
+              </shadow>
+              <block colour="#0088ee" dependencyby="@,7#j.7+73_}aoAqty.[" id=".wt_E?VSPm$5a27:z6-b" origintype="variables_get" output="true" tooltip="Retorna o valor desta variável." type="variables_get">
+                <field name="VAR">mapa</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+  <block colour="#745ba5" dependencyby="@,7#j.7+73_}aoAqty.[" id="Atu4Ad36^b:ehr]ca6(7" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with" x="-9" y="368">
+    <mutation items="2"/>
+    <value name="ADD1">
+      <block colour="#a26b21" dependencyby="@,7#j.7+73_}aoAqty.[" id="QTy7,A|9Hl7n.{x`WkH7" multilayer="false" namespace="cronapi.chart.Operations.createChartSerie" origintype="procedures_callreturn" output="true" returntype="ObjectType.OBJECT" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3ECriar%20s%C3%A9rie%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20cria%20uma%20s%C3%A9rie%20de%20dados%20para%20gr%C3%A1fico%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Nome%20da%20s%C3%A9rie%20:%20Objeto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Dados%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Dados%20da%20s%C3%A9rie%3C/div%3E%3Cspan%3E%20-%20Op%C3%A7%C3%B5es%20:%20Objeto%3C/span%3E%3Cdiv%3E%20Op%C3%A7%C3%B5es%20da%20s%C3%A9rie%3C/div%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22return%22%3E%3Cstrong%3ERetorno:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Objeto%3C/span%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.chart.Operations.createChartSerie%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.chart.Operations.createChartSerie%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callreturn">
+        <mutation name="{{cronapi.chart.Operations.createChartSerie}}" return-raw-type="cronapi.Var">
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Nome da série"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Dados"/>
+          <arg cronapi-raw-type="cronapi.Var" cronapi-type="ObjectType.OBJECT" name="Opções"/>
+        </mutation>
+        <value name="ARG0">
+          <block colour="#5ba593" dependencyby="@,7#j.7+73_}aoAqty.[" id="gmz;H~bqq0v@eF#RijER" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">rty</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block colour="#745ba5" dependencyby="@,7#j.7+73_}aoAqty.[" id="[ER6tV;4NAVevBN1|)Vh" origintype="lists_create_with" output="true" tooltip="Cria uma lista com a quantidade de itens informada." type="lists_create_with">
+            <mutation items="3"/>
+            <value name="ADD0">
+              <block colour="#5b67a5" dependencyby="@,7#j.7+73_}aoAqty.[" id="g?Kf!#UpVH4x5MWR+`c?" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field name="NUM">3</field>
+              </block>
+            </value>
+            <value name="ADD1">
+              <block colour="#5b67a5" dependencyby="@,7#j.7+73_}aoAqty.[" id="zur;mdUv*]DgvEt?X.BW" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field name="NUM">4</field>
+              </block>
+            </value>
+            <value name="ADD2">
+              <block colour="#5b67a5" dependencyby="@,7#j.7+73_}aoAqty.[" id="?!p]$q2$se*X/*XAd45)" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+                <field name="NUM">15</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+</blockly>

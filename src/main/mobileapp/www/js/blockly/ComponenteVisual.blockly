@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><blockly audit="false" bpmnAble="false" formTarget="" resourceType="JS" ruleDescription="ComponenteVisual" ruleName="ComponenteVisual" ruleSynchronous="false" ruleTimeout="" ruleType="I">
+  <metadata scale="1" scrollx="445.29999999999984" scrolly="-123" target="fA%W(fBk5iph^mkPewM%"/>
+  <block colour="#995ba5" id="Anb:u5+^,0vLkL9QIqn5" origintype="procedures_defreturn" output="false" tooltip="Cria uma função que possui um valor de retorno." type="procedures_defreturn" x="-350" y="130">
+    <field name="NAME">LinkApp</field>
+    <comment h="80" pinned="false" w="160">ComponenteVisual</comment>
+    <statement name="STACK">
+      <block colour="#EBC944" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="m@59*jpWdIrA5hsrDg5o" multilayer="false" namespace="cronapi.cordova.database.openInAppBrowser" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAbrir%20URL%20dentro%20do%20app%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20que%20abre%20uma%20URL%20dentro%20da%20aplica%C3%A7%C3%A3o%20mobile%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Url%20de%20destino%20:%20Texto%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.cordova.database.openInAppBrowser%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.cordova.database.openInAppBrowser%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.cordova.database.openInAppBrowser}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Url de destino"/>
+        </mutation>
+        <value name="ARG0">
+          <shadow colour="#5ba593" dependencyby="Anb:u5+^,0vLkL9QIqn5" id="/IX!D13ujqsHpVR|QZ:p" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">https://www.coopama.com.br/</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#fca03b" id="fA%W(fBk5iph^mkPewM%" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-307" y="203">
+    <field name="NAME">Abrir URLT</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#934848" dependencyby="fA%W(fBk5iph^mkPewM%" id="E6BL+#[~I0S0%[]yyD[[" multilayer="true" namespace="cronapi.screen.openUrl" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAbrir%20url%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20abrir%20url%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Url%20de%20destino%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Nova%20aba?%20:%20L%C3%B3gico%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Largura%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Altura%20:%20Inteiro%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.openUrl%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.openUrl%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.screen.openUrl}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Url de destino"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.BOOLEAN" name="Nova aba?"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Largura"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Altura"/>
+        </mutation>
+        <value name="ARG0">
+          <shadow colour="#5ba593" dependencyby="fA%W(fBk5iph^mkPewM%" id="R`wd`ph/!AA14P7LQ27-" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">https://www.google.com.br</field>
+          </shadow>
+        </value>
+        <value name="ARG1">
+          <block colour="#5b80a5" dependencyby="fA%W(fBk5iph^mkPewM%" id="etQ[5yJJX.Ji=[_i+9D{" origintype="logic_boolean" output="true" tooltip="Retorna verdadeiro ou falso." type="logic_boolean">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="fA%W(fBk5iph^mkPewM%" id="]HNLh^f9M{`}(0FoHdrL" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">500</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <shadow colour="#5b67a5" dependencyby="fA%W(fBk5iph^mkPewM%" id=";Ge38D|Jc`!XnG}nG#Qk" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">500</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block colour="#fca03b" id="hbkd2g?h}bYCO;]s%gla" origintype="procedures_defnoreturn" output="false" tooltip="Cria uma função que não tem retorno." type="procedures_defnoreturn" x="-287" y="243">
+    <field name="NAME">Abrir URLF</field>
+    <comment h="80" pinned="false" w="160">Descreva esta função...</comment>
+    <statement name="STACK">
+      <block colour="#934848" dependencyby="hbkd2g?h}bYCO;]s%gla" id="|HUl*LU=[q}FfUf~gp8E" multilayer="true" namespace="cronapi.screen.openUrl" origintype="procedures_callnoreturn" output="false" returntype="ObjectType.VOID" tooltip="%3Cdiv%20class=%22name%22%3E%3Cstrong%3ENome:%3C/strong%3E%3Cdiv%3EAbrir%20url%3C/div%3E%3C/div%3E%3Cdiv%20class=%22description%22%3E%3Cstrong%3EDescri%C3%A7%C3%A3o:%3C/strong%3E%3Cdiv%3EFun%C3%A7%C3%A3o%20para%20abrir%20url%3C/div%3E%3C/div%3E%3Cdiv%20class=%22params%22%3E%3Cstrong%3EParam%C3%AAtro:%3C/strong%3E%3Cdiv%3E%3Cspan%3E%20-%20Url%20de%20destino%20:%20Texto%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Nova%20aba?%20:%20L%C3%B3gico%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Largura%20:%20Inteiro%3C/span%3E%3Cbr%3E%3Cspan%3E%20-%20Altura%20:%20Inteiro%3C/span%3E%3Cbr%3E%3C/div%3E%3C/div%3E%3Cdiv%20class=%22link%22%3E%3Cstrong%3EAjuda:%3C/strong%3E%3Cdiv%20class=%22tooltip-link%22%3E%3Ca%20target=%22_blank%22%20href=%22https://docs.cronapp.io/display/CRON2/cronapi.screen.openUrl%22%3Ehttps://docs.cronapp.io/display/CRON2/cronapi.screen.openUrl%3C/a%3E%3C/div%3E%3C/div%3E" type="procedures_callnoreturn">
+        <mutation name="{{cronapi.screen.openUrl}}" return-raw-type="undefined">
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.STRING" name="Url de destino"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.BOOLEAN" name="Nova aba?"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Largura"/>
+          <arg cronapi-raw-type="undefined" cronapi-type="ObjectType.LONG" name="Altura"/>
+        </mutation>
+        <value name="ARG0">
+          <shadow colour="#5ba593" dependencyby="hbkd2g?h}bYCO;]s%gla" id="Ac.6Ko|eh?W`A@:E$Pzy" origintype="text" output="true" tooltip="function () { [native code] }" type="text">
+            <field name="TEXT">https://www.google.com.br</field>
+          </shadow>
+        </value>
+        <value name="ARG1">
+          <block colour="#5b80a5" dependencyby="hbkd2g?h}bYCO;]s%gla" id="u{fT-h|R*:.]$a!ebV3s" origintype="logic_boolean" output="true" tooltip="Retorna verdadeiro ou falso." type="logic_boolean">
+            <field name="BOOL">FALSE</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <shadow colour="#5b67a5" dependencyby="hbkd2g?h}bYCO;]s%gla" id=",gO_MNAjYf7h3gb(o8z2" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+        <value name="ARG3">
+          <shadow colour="#5b67a5" dependencyby="hbkd2g?h}bYCO;]s%gla" id="skl`uu8LxkwxCcsWF(a+" origintype="math_number" output="true" tooltip="function () { [native code] }" type="math_number">
+            <field name="NUM">0</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+</blockly>
