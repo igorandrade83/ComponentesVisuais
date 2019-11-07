@@ -25,6 +25,7 @@
     "cronapp-framework-js": "564bb2547afe68d7e74beb92faac8228f9a49944",
     "cronapp-common-js": "e283c073564f61d2952d058debca622da40fa917",
     "cronapi-js": "82089abcf4452303ab1da1133d974e402319eb74",
-    "cronapp-lib-js": "732c35c38b98525f6965607cef89db71a3126faa"
+    "cronapp-lib-js": "732c35c38b98525f6965607cef89db71a3126faa",
+    "cronapi-firebase-push": "1.0.0"
   }
 }

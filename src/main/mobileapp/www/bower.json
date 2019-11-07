@@ -23,8 +23,12 @@
     "src"
   ],
   "dependencies": {
-    "cronapp-framework-mobile-js": "eed5afe327438769f8aef9e57e0b0d61f07ebf72",
+    "cronapp-framework-mobile-js": "fba119096bafd90675d7582c97131c81d96c1031",
     "cronapp-common-js": "e283c073564f61d2952d058debca622da40fa917",
-    "cronapi-js": "82089abcf4452303ab1da1133d974e402319eb74"
+    "cronapi-js": "82089abcf4452303ab1da1133d974e402319eb74",
+    "cronapi-firebase-push": "1.0.0"
+  },
+  "resolutions": {
+    "angular": ">=1.2.0 <1.8.0"
   }
 }

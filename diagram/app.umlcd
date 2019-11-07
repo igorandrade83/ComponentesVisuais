@@ -77,7 +77,7 @@
           "stroke-width": 2
         }
       },
-      "audit": false,
+      "audit": true,
       "fields": [
         {
           "name": "id",
@@ -1861,7 +1861,7 @@
           "stroke-width": 2
         }
       },
-      "audit": false,
+      "audit": true,
       "fields": [
         {
           "name": "id",
@@ -1991,7 +1991,7 @@
       ],
       "generateView": "Auto",
       "id": "df29f8c2-fc65-468d-9687-0b04ca52003e",
-      "isRest": "true",
+      "isRest": true,
       "methods": [],
       "modelType": "Table",
       "name": "UserIcone",
@@ -2460,6 +2460,7 @@
           "stroke-width": 2
         }
       },
+      "audit": false,
       "fields": [
         {
           "name": "id",
@@ -2519,8 +2520,8 @@
       "modelType": "Table",
       "name": "estado",
       "position": {
-        "x": 994,
-        "y": 264
+        "x": 996,
+        "y": 284
       },
       "queries": [],
       "realName": "",

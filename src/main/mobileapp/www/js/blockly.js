@@ -13,4 +13,4 @@ document.write("<script src='js/blockly/auth/Home.blockly.js?1569334267437'></sc
 document.write("<script src='js/blockly/auth/Login.blockly.js?1569334267431'></script>");
 document.write("<script src='js/blockly/ComponenteVisual.blockly.js?1572649824213'></script>");
 document.write("<script src='js/blockly/Recursos.blockly.js?1570716728841'></script>");
-document.write("<script src='js/blockly/Bloco.blockly.js?1572646544061'></script>");
+document.write("<script src='js/blockly/Bloco.blockly.js?1573159400958'></script>");

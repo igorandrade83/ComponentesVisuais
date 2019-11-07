@@ -8,5 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "CronApp IDE",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-plugin-firebase": "git+https://github.com/arnesson/cordova-plugin-firebase.git#pull/1011/head"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-firebase": {}
+    }
+  }
 }
